@@ -10,4 +10,5 @@ This is the cheatseat repository on various topic to provide the guide on the sa
   - [x] [Managing Users 👤 and Groups 👥 in Ubuntu 🐧](./Linux/Managing%20Users%20and%20Groups.md)
 - [ ] [Git 🌿](./Git/)
   - [ ] [GitHub](./Git/GitHub/)
+  - [ ] [Git Workflows](./Git/Git%20Workflows.md)
 - [ ] [Markdown](./Markdown/)
