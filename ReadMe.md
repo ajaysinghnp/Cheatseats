@@ -8,7 +8,7 @@ This is the cheatseat repository on various topic to provide the guide on the sa
 
 - [x] [Linux 🐧](./Linux/)
   - [x] [Managing Users 👤 and Groups 👥 in Ubuntu 🐧](./Linux/Managing%20Users%20and%20Groups.md)
-- [ ] [Git 🌿](./Git/)
+- [x] [Git 🌿](./Git/)
   - [ ] [GitHub](./Git/GitHub/)
-  - [ ] [Git Workflows](./Git/Git%20Workflows.md)
+  - [x] [Git Workflows](./Git/Git%20Workflows.md)
 - [ ] [Markdown](./Markdown/)
