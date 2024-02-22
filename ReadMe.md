@@ -4,4 +4,4 @@ This is the cheatseat repository on various topic to provide the guide on the sa
 
 ## Topics:
   * Linux
-    * Managing Users and Groups in Ubuntu
+    * [Managing Users and Groups in Ubuntu]("./Linux/Managing Users and Groups.md")
