@@ -6,6 +6,7 @@ This is the cheatseat repository on various topic to provide the guide on the sa
 
 **Topics** covered by this cheatseat repo are as follows ....
 
-- [x] Linux 🐧
-  - [x] Managing Users 👤 and Groups 👥 in Ubuntu 🐧
-- [ ] Git 🌿
+- [x] [Linux 🐧](./Linux/)
+  - [x] [Managing Users 👤 and Groups 👥 in Ubuntu 🐧](./Linux/Managing%20Users%20and%20Groups.md)
+- [ ] [Git 🌿](./Git/)
+  - [ ] [GitHub](./Git/GitHub/)
