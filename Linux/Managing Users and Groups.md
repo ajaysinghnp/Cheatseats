@@ -1,4 +1,4 @@
-# Note for managing Users and Groups in the Ubuntu OS.
+# Note for managing Users and Groups in the Ubuntu OS
 
 Ubuntu, like any other multi-user operating system, implements a system of file permissions and ownership as part of its security protocol. Managing users and groups in Ubuntu is crucial for setting up a system’s access rights and ensuring the appropriate segregation of rights. Whether you are an Ubuntu novice or an experienced administrator, knowing how to effectively manage users and groups is key to maintaining a secure system.
 
@@ -11,11 +11,13 @@ In Ubuntu, each user has a username and a numeric user ID (UID). Similarly, grou
 ## Listing User Groups
 
 To list all the users on your system, you can use the following command:
+
 ```bash
 cut -d: -f1 /etc/passwd
 ```
 
 To list all the groups, you can use:
+
 ```bash
 cut -d: -f1 /etc/group
 ```
@@ -62,19 +64,19 @@ sudo deluser --remove-home username
 
 Similar to users, you can `add`, `modify` and `delete` groups with `groupadd`, `groupmod`, and `groupdel` commands.
 
-### Creating Groups:
+### Creating Groups
 
 ```bash
 sudo groupadd groupname
 ```
 
-### Modifying Groups:
+### Modifying Groups
 
 ```bash
 sudo groupmod -n newgroupname oldgroupname
 ```
 
-### Deleting Groups:
+### Deleting Groups
 
 ```bash
 sudo groupdel groupname
