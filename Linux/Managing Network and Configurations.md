@@ -48,14 +48,15 @@ network:
   version: 2
   renderer: networkd
   ethernets:
+    dhcp: no # disable the dhcp
     eth0: # check for the name of your adapter here
       addresses:
-        - 192.168.1.10/24
+        - 192.168.1.10/24 # check for your static IP address for your server
       routes:
         - to: default
-          via: 192.168.1.1
+          via: 192.168.1.1  # check for your gateway address
       nameservers:
-          addresses: [8.8.8.8, 1.1.1.1]
+          addresses: [8.8.8.8, 1.1.1.1] # change this value to your DNS Servers
 ```
 
 **Apply:**
